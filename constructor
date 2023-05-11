@@ -1,0 +1,41 @@
+//contoh constructor dngan menggabungkan 2 class dalam satu lembar kerja
+public class Employe {
+    String nama;
+    int id;
+    String jabatan;
+
+    Employe(String anama, int aid, String ajabatan){
+        nama = anama;
+        id = aid;
+        jabatan = ajabatan;
+        System.out.println(anama);
+        System.out.println(aid);
+        System.out.println(ajabatan);
+    }
+    public static void main(String[] args){
+        Employe employe = new Employe("Maikel", 19, "staff");
+
+    }
+    public static class Mobil {
+        String merek;
+        String model;
+        int tahun;
+        String warna;
+
+        Mobil(String amerek, String amodel, int atahun, String awarna){
+            merek = amerek;
+            model = amodel;
+            tahun = atahun;
+            warna = awarna;
+            System.out.println(amerek);
+            System.out.println(amodel);
+            System.out.println(atahun);
+            System.out.println(awarna);
+
+        }
+        public static void main(String[] args){
+            Mobil mobil = new Mobil("toyota", "supra", 1992, "merah");
+        }
+    }
+
+}

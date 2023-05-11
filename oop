@@ -1,0 +1,17 @@
+//objec dan class
+//kelas adalah template dan class adalah isi
+class Kanjut {
+  String nama;
+  String kelas;
+  String posisi;
+  //bismillah konsisten
+  public static void main(String[] args){
+  Kanjut kanjut = new Kanjut();
+  kanjut.nama = "Martin";
+  kanjut.kelas = "11";
+  kanjut.posisi = "ketua osis";
+    System.out.println(kanjut.nama);
+    System.out.println(kanjut.kelas);
+    System.out.println(kanjut.posisi);
+  }
+}

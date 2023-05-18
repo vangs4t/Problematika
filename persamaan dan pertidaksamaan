@@ -1,0 +1,38 @@
+package com.gaming;
+
+public class Persamaan {
+    public static void main(String[] args){
+        int a,b;
+        boolean hasil;
+        // persamaan
+        a = 10;
+        b = 10;
+        hasil = (a == b);
+        System.out.printf("%d == %d ---> %s \n",a,b,hasil);
+        //pertidaksamaan
+        a = 10;
+        b = 10;
+        hasil = (a != b);
+        System.out.printf("%d != %d ---> %s \n",a,b,hasil);
+        //lebih besar
+        a = 16;
+        b = 10;
+        hasil = (a > b);
+        System.out.printf("%d > %d ---> %s \n",a,b,hasil);
+        //lebih kecil
+        a = 7;
+        b = 10;
+        hasil = (a < b);
+        System.out.printf("%d < %d ---> %s \n",a,b,hasil);
+        //lebih besar dan sama dengan
+        a = 11;
+        b = 10;
+        hasil = (a >= b);
+        System.out.printf("%d >= %d ---> %s \n",a,b,hasil);
+        //lebih kecil dan sama dengan
+        a = 9;
+        b = 10;
+        hasil = (a <= b);
+        System.out.printf("%d <= %d ---> %s \n",a,b,hasil);
+    }
+}

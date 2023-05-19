@@ -1,0 +1,59 @@
+
+public class Main {
+    
+    public static void main(String[] args) {
+        //operator OR
+        boolean x,y,z;
+        x = false;
+        y = false;
+        z = (x||y);
+        System.out.println(x + "||" + y + "=" + z);
+        x = false;
+        y = true;
+        z = (x||y);
+        System.out.println(x + "||" + y + "=" + z);
+        x = true;
+        y = false;
+        z = (x||y);
+        System.out.println(x + "||" + y + "=" + z);
+        x = true;
+        y = true;
+        z = (x||y);
+        System.out.println(x + "||" + y + "=" + z);
+        //operator AND
+        x = false;
+        y = false;
+        z = (x&&y);
+        System.out.println(x + "&&" + y + "=" + z);
+        x = false;
+        y = true;
+        z = (x&&y);
+        System.out.println(x + "&&" + y + "=" + z);
+        x = true;
+        y = false;
+        z = (x&&y);
+        System.out.println(x + "&&" + y + "=" + z);
+        x = true;
+        y = true;
+        z = (x&&y);
+        System.out.println(x + "&&" + y + "=" + z);
+        //operator XOR
+        x = false;
+        y = false;
+        z = (x^y);
+        System.out.println(x + "^" + y + "=" + z);
+        x = false;
+        y = true;
+        z = (x^y);
+        System.out.println(x + "^" + y + "=" + z);
+        x = true;
+        y = false;
+        z = (x^y);
+        System.out.println(x + "^" + y + "=" + z);
+        x = true;
+        y = true;
+        z = (x^y);
+        System.out.println(x + "^" + y + "=" + z);
+    }
+    
+}

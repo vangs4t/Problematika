@@ -1,0 +1,20 @@
+package com.latihan;
+import java.util.Scanner;
+public class Ifstatemrnt {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Masukan nilai audit ");
+        int nilai;
+        nilai = scanner.nextInt();
+        System.out.println("Masukan nilai cogs");
+        //cogs = pengeluaran
+        int cogs; cogs = scanner.nextInt();
+
+        if(nilai >= 70 || cogs >= 70){
+            System.out.println("Selamat anda naik gaji");
+        } else if (nilai < 70 || cogs < 70) {
+            System.out.println("Lo kontol");
+        }
+    }
+
+}

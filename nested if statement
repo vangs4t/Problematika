@@ -1,0 +1,22 @@
+package com.latihan;
+
+public class Nested {
+    public static void main(String[] args){
+        int a = 11;
+        int b = 10;
+
+        if(a == 8){
+            if(b == 5){
+                System.out.println("Ini adalah statement 1");
+            }
+            else {
+                System.out.println("ini adalah statement 2");
+            }
+        } else if (a == 10 || b == 5){
+            System.out.println("ini adalah statement 3");
+        }
+        else{
+            System.out.println("ini adalah statement 4");
+        }
+    }
+}
